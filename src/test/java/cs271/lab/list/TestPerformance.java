@@ -23,6 +23,19 @@ public class TestPerformance {
   private List<Integer> arrayList;
 
   private List<Integer> linkedList;
+  @Before
+  public void start() {
+    long start;
+    start = System.currentTimeMillis();
+  }
+
+  @After
+  public void end() {
+    long time;
+    time = System.currentTimeMillis();
+
+  }
+
 
   @Before
   public void setUp() throws Exception {
