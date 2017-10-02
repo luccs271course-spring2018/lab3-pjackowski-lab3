@@ -1,4 +1,4 @@
-LinkedList- it doesnt matter if you use arraylist or linkedlist because both use same methods
+LinkedList(testit)- it doesnt matter if you use arraylist or linkedlist because both use same methods
 
 
 remove- if you use list.remove(77); it fails to  run because it tries to remove position 77 which there isnt because list is size 7.
@@ -11,3 +11,6 @@ what does this method do?(TestList)
  removes index 5 from the list in this case it is 77
  // what does this one do? (TestList)
  removes the index that has a value of 5 being index 4
+
+ testperformance-
+ as size increases time it takes for linked list takes a lot longer especially for access
