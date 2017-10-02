@@ -1,6 +1,7 @@
 package cs271.lab.list;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import org.junit.After;
@@ -16,7 +17,7 @@ public class TestPerformance {
   // which of the two lists performs better as the size increases?
   private final int SIZE = 10000;
 
-  // TODO choose this value in such a way that you can observe an actual effect
+  // done choose this value in such a way that you can observe an actual effect
   // for increasing problem sizes
   private final int REPS = 10000000;
 
